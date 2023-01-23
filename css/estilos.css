@@ -1,0 +1,179 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Karla", sans-serif;
+}
+h4{
+    font-family: "Karla", sans-serif;
+}
+body {
+    font-family: 'Chivo', sans-serif;
+}
+h5 {
+    font-family: 'Open Sans', sans-serif;;
+}
+h2 {
+    font-family: 'Chivo', sans-serif;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: rgb(153, 161, 177);
+    height: 30px;
+    border-radius: 50%;
+}
+
+img {
+    width: 100%;
+}
+
+.sitio {
+    padding: 40px 20px;
+    
+}
+
+main .comunidad ul {
+    list-style-type: none;
+}
+.portada {
+    background-color: #212529;
+    background-image: url(../imagenes/exhale480x640.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   	height: auto;
+    text-align: center;
+}
+
+#portada  {
+    background-color: #74777a77;
+    margin: auto;
+    font-size: 0.938rem;
+    
+}
+
+.btn {
+	border: none;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem
+}
+
+footer {
+	background: #212529;
+}
+
+.datos ul li span {
+	font-weight: bold;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.check label {
+	display: inline-block;
+	font-size: 14px;
+}
+
+
+
+
+/* ERROR */
+
+.error {
+    background:#fff ;
+    background-image: url(../imagenes/error404-480x640.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    padding: 40px 10px;
+    text-align: center;
+}
+.error a {
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3125rem;
+    text-decoration: none;
+    margin-top: 2em;
+    display: inline-block;
+    background: #0d6efd;
+    color: #fff;
+    
+}
+
+.error a:focus,
+.error a:hover {
+    background: #3d639c;
+}
+
+.error h2 {
+    font-size: 4.375rem;
+}
+
+.error p {
+    max-width: 450px;
+    font-size: 0.938rem;
+    margin: auto;
+}
+
+
+@media (min-width:768px) {
+    .portada {
+        background-image: url(../imagenes/exhale768x1028.jpg);
+        padding: 80px 30px;
+    }
+    .portada p {
+        font-size: 1.125rem;
+    }
+	
+	.check label {
+	display: inline-block;
+	font-size: 16px;
+}
+	
+/*	ERROR */
+	
+	.error {
+        background-image: url(../imagenes/error404-768x1028.jpg);
+        padding: 80px 30px;
+    }
+    .error h2 {
+        font-size: 6.25rem;
+    }
+    .error p {
+        font-size: 1.25rem;
+    }
+    
+}
+
+@media (min-width:1024px) {
+    .portada {
+        background-image: url(../imagenes/exhale1600x900.jpg);
+		
+        padding: 100px 80px;
+    }
+    .portada p {
+        font-size: 1.25rem;
+    }
+	
+/*	ERROR */
+	.error {
+        background-image: url(../imagenes/error404-1600x900.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+        padding: 100px 80px;
+    }
+   
+    .error h2 {
+        font-size: 10rem;
+    }
+
+    .error p {
+        font-size: 1.875rem;
+    }
+}
+
+
